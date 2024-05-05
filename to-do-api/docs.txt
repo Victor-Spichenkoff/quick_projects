@@ -1,0 +1,16 @@
+***** ESTRUTURA *****
+{
+  "id": 2,
+  "label": "Segundo",
+  "checked": false,
+  "collection_id": 1
+}
+
+
+***** ROTAS *****
+
+GET- /todos/:userID --> pega todos para a coleção "userId"
+POST - /todos --> Criar, informar "label" e "collectionId"
+PUT - /todos --> Passar os dados que quer atualizar
+PATCH - /todos/toggle/:id --> Atualizar o checked pelo id
+DELETE - /todos/:id
